@@ -69,6 +69,10 @@ a{
     position:relative;
     background: url("../img/Cover.jpg") no-repeat;
     background-size:cover;
+
+    background-attachment: fixed;
+    background-position: center; 
+    min-height: 800px; 
 }
 #definition{
     width:100%;
@@ -219,7 +223,7 @@ a{
 }
 #bottom{
     width:100%;
-    height:300px;
+    height:400px;
     background-color: black;
     position:relative;
     border-top: 4px solid blue;
@@ -230,6 +234,7 @@ a{
     height:200px;
     position:absolute;
     left:0%;
+    top:10%;
 }
 #buy img{
     width:100%;
@@ -244,15 +249,19 @@ a{
 }
 #buy h4{
     margin-left:1%;
+    margin-bottom:5%;
 }
 #social-media{
     width:40%;
     height:300px;
     position:absolute;
     right:5%;
+    top:10%;
 }
 #social-media h4{
     margin-right:1%;
+    margin-bottom:5%;
+    
 }
 #social-media h4, #buy h4{
     color:white;
@@ -275,33 +284,58 @@ a{
     margin-left:5%;
 }
 #social-media .fa-facebook{
-    color:white;
-    background-color: blue;
+    color:red;
+    background-color: white;
 }
 #social-media .fa-twitter{
-    color:white;
-    background-color: cadetblue;
+    color:red;
+    background-color: white;
 }
 #social-media .fa-pinterest{
-    color:white;
-    background-color: green;
+    color:red;
+    background-color: white;
 }
 #social-media .fa-reddit{
-    color:white;
-    background-color: orange;
+    color:red;
+    background-color: white;
 }
 #social-media .fa-youtube{
-    color:white;
-    background-color: purple;
+    color:red;
+    background-color: white;
 }
 #social-media .fa-skype{
-    color:white;
-    background-color: lightskyblue;
-}
-#social-media .fa:hover{
     color:red;
-    transition: color 1s;
     background-color: white;
+}
+#social-media .fa-facebook:hover{
+    color:white;
+    transition: color 1s;
+    background-color: blue;
+}
+#social-media .fa-twitter:hover{
+    color:white;
+    transition: color 1s;
+    background-color: cadetblue;
+}
+#social-media .fa-pinterest:hover{
+    color:white;
+    transition: color 1s;
+    background-color: red;
+}
+#social-media .fa-reddit:hover{
+    color:white;
+    transition: color 1s;
+    background-color: orange;
+}
+#social-media .fa-youtube:hover{
+    color:white;
+    transition: color 1s;
+    background-color: purple;
+}
+#social-media .fa-skype:hover{
+    color:white;
+    transition: color 1s;
+    background-color: seagreen;
 }
 
 /* Contact */
@@ -420,6 +454,10 @@ a{
     position:relative;
     background: url("../img/VaasM.jpg") no-repeat;
     background-size:cover;
+
+    background-attachment: fixed;
+    background-position: center; 
+    min-height: 800px; 
 }
 #middle-insanity{
     width:100%;
@@ -467,6 +505,10 @@ a{
     position:relative;
     background: url("../img/Weapons.jpg") no-repeat;
     background-size:cover;
+
+    background-attachment: fixed;
+    background-position: center; 
+    min-height: 800px; 
 }
 #middle-weapons{
     width:100%;
@@ -546,10 +588,7 @@ a{
 .weapons h2.sub{
     width:45%;
 }
-.weapons h2:hover{
-    color:white;
-    transition:color 1s;
-}
+
 .weapons p{
     color:white;
     line-height: 22px;
@@ -574,6 +613,10 @@ a{
     position:relative;
     background: url("../img/Fierce.jpg") no-repeat;
     background-size:cover;
+
+    background-attachment: fixed;
+    background-position: center; 
+    min-height: 800px; 
 }
 #character{
     width:100%;
@@ -684,6 +727,10 @@ a{
     position:relative;
     background: url("../img/Screenshots.jpg") no-repeat;
     background-size:cover;
+
+    background-attachment: fixed;
+    background-position: center; 
+    min-height: 800px; 
 }
 #mid-wallpapers{
     width:100%;
@@ -786,6 +833,7 @@ a{
     position:relative;
     background: url("../img/author.jpg") no-repeat;
     background-size:cover;
+
 }
 #picture-inside{
     width:100%;
@@ -800,10 +848,12 @@ a{
     border-radius: 100px;
     margin-top:130px;
     border: 2px solid red;
+
 }
 #cover-author #frag{
     width:100%;
     height:800px;
+    position:relative;
     background-color: rgba(0,0,0,0.5);
 }
 #picture-inside h1{
@@ -819,6 +869,7 @@ a{
     background-color: black;
     box-shadow: 0 0 55px rgb(88, 83, 83);
     position:relative;
+
 }
 .about-one{
     width:30%;
